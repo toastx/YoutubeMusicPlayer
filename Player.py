@@ -48,12 +48,12 @@ def track():
     print(f"{track.text} - {artist.text}")
 
 def next():
-    next = driver.find_element()
+    next = driver.find_element("xpath","/html/body/ytd-app/div[1]/ytd-page-manager/ytd-watch-flexy/div[5]/div[1]/div/div[1]/div[2]/div/div/ytd-player/div/div/div[27]/div[2]/div[1]/a[2]")
     driver.implicitly_wait(1)
     next.click()
 
 def previous():
-    previous = driver.find-element()
+    previous = driver.find_element("xpath","/html/body/ytd-app/div[1]/ytd-page-manager/ytd-watch-flexy/div[5]/div[1]/div/div[1]/div[2]/div/div/ytd-player/div/div/div[27]/div[2]/div[1]/a[1]")
     driver.implicitly_wait(1)
     previous.click()
 
