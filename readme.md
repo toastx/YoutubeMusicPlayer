@@ -1,6 +1,6 @@
 # Youtube automation using Selenium
 
-## Automating YouTube Music with Selenium in Python allows you to easily control and manipulate the playback of songs on the platform. This can be a great way to quickly and easily create a personalized listening experience without having to manually navigate through the website.
+# Automating YouTube Music with Selenium in Python allows you to easily control and manipulate the playback of songs on the platform. This can be a great way to quickly and easily create a personalized listening experience without having to manually navigate through the website.
 
 ## Prerequisites:
 
